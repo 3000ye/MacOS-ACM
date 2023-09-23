@@ -6,12 +6,13 @@ using namespace std;
 #define ld long double
 
 void solve() {
-  cout << "Hello World!" << endl;
+    int n, m; cin >> n >> m;
+    
 }
 
 int main() {
-  cin.tie(0); cout.tie(0);
-  ios::sync_with_stdio(false);
-  solve();
-  return 0;
+    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    solve();
+    return 0;
 }

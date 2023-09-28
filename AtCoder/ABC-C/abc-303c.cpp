@@ -6,7 +6,7 @@ using namespace std;
 #define ld long double
 
 void solve() {
-    
+    int n; cin >> n;
 }
 
 int main() {

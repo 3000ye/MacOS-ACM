@@ -7,12 +7,13 @@ using namespace std;
 
 void solve() {
     int n, m; cin >> n >> m;
-    int x = n % m;
 
-    if (x == 0) {cout << 0 << endl; return ;}
-    if (m & 1) {cout << -1 << endl; return ;}
+    int k = m / __gcd(n, m);
+    ll ans = 0;
+    while (k % 2 == 0) {ans += n % m; n = n * 2; k = k / 2;}
 
-    
+    if (k != 1) cout << "-1" << endl;
+    else cout << ans << endl;
 }
 
 int main() {

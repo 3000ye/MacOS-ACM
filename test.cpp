@@ -16,6 +16,11 @@ void solve() {
     cout << que.front() << endl;
 }
 
+int add(int a, in b) {
+    int c = a + b;
+    cout << a << b << c << endl;
+}
+
 int main() {
     cin.tie(0); cout.tie(0);
     ios::sync_with_stdio(false);
